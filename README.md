@@ -1,78 +1,62 @@
-Sistema de Mercado 🛒
+# 🛒 MarketSystem
 
-Sistema simples de gerenciamento de estoque desenvolvido em Java, utilizando Programação Orientada a Objetos (POO), listas dinâmicas com ArrayList e interação via terminal.
+Sistema de gerenciamento de estoque desenvolvido em Java com foco em organização de produtos, controle básico de estoque e prática de Programação Orientada a Objetos (POO).
 
-📌 Funcionalidades
+---
 
-O sistema permite:
+## 📖 Sobre o Projeto
 
-✅ Adicionar produtos
-✅ Listar produtos cadastrados
-✅ Buscar produtos pelo nome
-✅ Remover produtos
-✅ Calcular o valor total do estoque
-✅ Exibir o produto mais caro
-✅ Encerrar o sistema
-🖥️ Tecnologias Utilizadas
-Java
-IntelliJ IDEA
-Programação Orientada a Objetos (POO)
-ArrayList
-Scanner
-📂 Estrutura do Projeto
+O **MarketSystem** foi criado com o objetivo de simular um sistema simples de mercado utilizando conceitos fundamentais da linguagem Java.
+
+O projeto permite realizar operações básicas de gerenciamento de estoque diretamente pelo terminal, proporcionando prática com:
+
+- Estruturas condicionais
+- Estruturas de repetição
+- Manipulação de listas
+- Programação Orientada a Objetos
+- Entrada de dados com Scanner
+- Organização de código em classes
+
+---
+
+## ⚙️ Funcionalidades
+
+### 📦 Gerenciamento de Produtos
+
+- Cadastro de produtos
+- Listagem de produtos cadastrados
+- Busca de produtos por nome
+- Remoção de produtos do sistema
+
+### 📊 Controle de Estoque
+
+- Cálculo do valor total do estoque
+- Exibição do produto mais caro cadastrado
+
+### 🖥️ Sistema Interativo
+
+- Menu interativo no terminal
+- Navegação simples e intuitiva
+- Encerramento seguro do sistema
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|---|---|
+| Java | Linguagem principal do projeto |
+| IntelliJ IDEA | Ambiente de desenvolvimento |
+| ArrayList | Estrutura dinâmica de armazenamento |
+| Scanner | Entrada de dados via terminal |
+
+---
+
+## 📁 Estrutura do Projeto
+
+```bash
 MarketSystem/
 │
 ├── Main.java
 ├── Produto.java
 └── README.md
-🚀 Como Executar
-1. Clone o repositório
-git clone https://github.com/pauloluann/MarketSystem.git
-2. Abra no IntelliJ IDEA
-File → Open
-Selecione a pasta do projeto
-3. Execute o arquivo Main.java
-
-O sistema será iniciado no terminal.
-
-📋 Menu do Sistema
-1 - Adicionar produto
-2 - Listar produtos
-3 - Buscar produto
-4 - Remover produto
-5 - Mostrar valor total do estoque
-6 - Produto mais caro
-7 - Sair
-📦 Exemplo de Cadastro
-Digite o nome do produto:
-Arroz
-
-Digite a categoria:
-Alimentos
-
-Digite o preco:
-25.90
-
-Digite a quantidade:
-10
-🧠 Conceitos Aplicados
-
-Este projeto utiliza conceitos importantes da linguagem Java, como:
-
-Classes e Objetos
-Encapsulamento
-Métodos getters
-Estruturas de repetição
-Estruturas condicionais
-Manipulação de listas
-Entrada de dados com Scanner
-🎯 Objetivo do Projeto
-
-O objetivo deste projeto é praticar lógica de programação e conceitos fundamentais de desenvolvimento back-end com Java, simulando um pequeno sistema de gerenciamento de estoque de mercado.
-
-👨‍💻 Autor
-
-Paulo Luan
-
-GitHub:
-@pauloluann
